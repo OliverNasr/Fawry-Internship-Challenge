@@ -39,3 +39,22 @@ It demonstrates core object-oriented principles and simulates realistic e-commer
 
 ## 📂 Project Structure
 
+# 📄 main_app.py
+
+A fully interactive **command-line app** that allows users to:
+
+1. Enter their name and balance  
+2. Use default or custom products (define name, type, price, quantity)  
+3. Add items to a cart  
+4. Checkout with full validation and output
+
+# ✅ test_app.py
+
+Runs a series of **test cases** to ensure the system is working as intended:
+
+- ✅ Successful checkout scenario  
+- ❌ Insufficient balance triggers error  
+- ⚠️ Expired product is caught before checkout  
+- 🛒 Empty cart check  
+- 🏪 Out of stock protection  
+- 🧪 Combined expirable and shippable product test  
